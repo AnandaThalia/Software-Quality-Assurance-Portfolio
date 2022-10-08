@@ -1,0 +1,4 @@
+The test case is to fulfill my assignment at Quality Assurance bootcamp Sanbercode. I made a test scenario for the register, login, searching, order, and pay functions.
+
+Tokopedia Test Cases:
+https://docs.google.com/spreadsheets/d/1bdY364BUHOdcCXZWuIvP3zq4a4ZnneqVK2f1vFp3I2Q/edit?usp=sharing

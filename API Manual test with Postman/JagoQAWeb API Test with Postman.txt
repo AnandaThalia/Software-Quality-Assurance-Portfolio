@@ -1,0 +1,5 @@
+The API test is to fulfill my assignment at Quality Assurance bootcamp JagoQA. I made a API test collection for  https://barru.pythonanywhere.com/daftar
+
+JagoQA API Test Collection :
+https://www.postman.com/anandathalia/workspace/jagoqa/collection/9785562-b4bb58cc-7f09-477e-9b2d-e4c63cbdeef0?action=share&creator=9785562
+https://docs.google.com/spreadsheets/d/1QdUss5cD4-f7rk0uOkK-yXDV35MZp74qT8xGxYZcBBw/edit?usp=sharing

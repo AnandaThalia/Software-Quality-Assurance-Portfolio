@@ -1,0 +1,88 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+1,"Periksa perilaku sistem ketika registrasi menggunakan akun google yang belum terdaftar pada Tokopedia",,"Memiliki akun google yang telah terdaftar",,,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengklik tombol 'Google'
+3. User mengklik akun Google yang belum terdaftarkan
+","1. Halaman Daftar terbuka
+2. Halaman memilih akun google terbuka
+3. Berhasil membuat akun baru
+","1. 
+2. 
+3. 
+",,,,,,
+2,"Periksa perilaku sistem ketika registrasi menggunakan akun google yang sudah terdaftar pada Tokopedia",,"Memiliki akun google yang telah terdaftar",,,low,minor,functional,negative,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengklik tombol 'Google'
+3. User mengklik akun Google yang sudah terdaftarkan
+","1. Laman daftar terbuka
+2. Laman memilih akun google terbuka
+3. Muncul pop up 'Akun sudah terdaftar'
+","1. 
+2. 
+3. 
+",,,,,,
+3,"Periksa perilaku sistem ketika registrasi menggunakan email yang benar",,"Memiliki akun email yang sudah terdaftar",,,high,major,other,positive,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi email pada kolom 'Nomor Telpon atau Email'
+3. 3\. User mengklik tombol 'Daftar'
+","1. Halaman daftar terbuka
+2. 
+3. Halaman verifikasi email terbuka
+","1. 
+2. email : xxx@gmail.com
+3. 
+",,,,,,
+4,"Periksa perilaku sistem ketika registrasi menggunakan email yang salah",,"memiliki email",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi email yang salah pada kolom 'Nomor Telpon atau Email'
+3. User mengklik tombol 'Daftar'
+","1. 
+2. 
+3. Terdapat pop up yang mengkonfirmasi apakah email yang dimasukan sudah benar
+","1. 
+2. email yang salah
+3. 
+",,,,,,
+5,"Periksa perilaku sistem ketika registrasi menggunakan email dengan salah pengetikan format email",,"memiliki akun email",,,high,major,other,negative,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi email dengan format yang salah pada kolom 'Nomor Telpon atau Email'
+","1. 
+2. Muncul tulisan 'Format email salah'
+","1. 
+2. 
+",,,,,,
+6,"Periksa perilaku sistem ketika registrasi menggunakan Nomor HP yang benar",,"memiliki nomor hp",,,high,major,other,positive,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi no hp yang benar pada kolom 'Nomor Telpon atau Email'
+3. User mengklik tombol 'Daftar'
+","1. 
+2. 
+3. Laman verifikasi no hp
+","1. 
+2. nomor hp
+3. 
+",,,,,,
+7,"Periksa perilaku sistem ketika registrasi menggunakan Nomor HP yang salah",,"memiliki no hp",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi no hp yang salah pada kolom 'Nomor Telpon atau Email'
+3. User mengklik tombol 'Daftar'
+","1. 
+2. 
+3. Muncul pop up 'Apakah nomor HP yang Anda masukkan sudah benar?'
+","1. 
+2. no hp yang salah
+3. 
+",,,,,,
+8,"Periksa perilaku sistem ketika registrasi menggunakan Nomor HP yang sudah terdaftar",,"memiliki no hp",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi no hp yang sudah terdaftar pada kolom 'Nomor Telpon atau Email'
+3. User mengklik tombol 'Daftar'
+","1. 
+2. 
+3. Muncul pop up 'No HP sudah terdaftar, masuk dengan nomor ini?'
+","1. 
+2. no hp yang sudah terdaftar
+3. 
+",,,,,,
+9,"Periksa perilaku sistem ketika registrasi menggunakan Nomor HP dengan salah pengetikan format no hp",,,,,high,major,other,undefined,is-not-automated,actual,no,unknown,classic,"1. User mengklik tombol 'Daftar'
+2. User mengisi no hp dengan format yang salah pada kolom 'Nomor Telpon atau Email'
+3. User mengklik tombol 'Daftar'
+","1. 
+2. 
+3. Muncul tulisan 'Format No HP salah'
+","1. 
+2. 
+3. 
+",,,,,,

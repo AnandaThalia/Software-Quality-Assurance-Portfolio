@@ -1,0 +1,4 @@
+The Bug report is to fulfill my assignment at Quality Assurance bootcamp Sanbercode. I made a bugs report for MyAppventure (https://my-appventure.herokuapp.com/)
+
+MyAppventure Bugs Report:
+https://docs.google.com/document/d/18KaqYw-mJK9s0k27JyC5tcf1DDEzb_WZARNqLBx5chM/edit?usp=sharing
