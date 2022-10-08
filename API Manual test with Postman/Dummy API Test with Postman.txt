@@ -1,0 +1,4 @@
+The API test is to fulfill my assignment at Quality Assurance bootcamp Sanbercode. I made a API test collection, writing tests, and made a monitor for  https://dummyjson.com
+
+https://dummyjson.com API Test Collection :
+https://www.postman.com/anandathalia/workspace/qa-bootcamp-sanbercode/collection/9785562-3be2b183-4cbc-4ab7-b070-503810d4a573?ctx=documentation
